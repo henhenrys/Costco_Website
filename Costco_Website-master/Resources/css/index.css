@@ -1,0 +1,101 @@
+@font-face {font-family: "Futura";
+    src: url("http://db.onlinewebfonts.com/t/f83ceae1890de02e294fd5f774d375b4.eot"); /* IE9*/
+    src: url("http://db.onlinewebfonts.com/t/f83ceae1890de02e294fd5f774d375b4.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("http://db.onlinewebfonts.com/t/f83ceae1890de02e294fd5f774d375b4.woff2") format("woff2"), /* chrome firefox */
+    url("http://db.onlinewebfonts.com/t/f83ceae1890de02e294fd5f774d375b4.woff") format("woff"), /* chrome firefox */
+    url("http://db.onlinewebfonts.com/t/f83ceae1890de02e294fd5f774d375b4.ttf") format("truetype"), /* chrome firefox opera Safari, Android, iOS 4.2+*/
+    url("http://db.onlinewebfonts.com/t/f83ceae1890de02e294fd5f774d375b4.svg#Futura") format("svg"); /* iOS 4.1- */
+}
+
+body {
+	background-color: black;
+}
+
+h1 {
+	width: 100%;
+	text-align: center;
+	font-size: 75px;
+	font-family: Futura, Arial;
+	color: #305ab3;
+}
+
+h2 {
+	font-size: 30px;
+	text-align: center;
+}
+
+h4 {
+	text-align: center;
+	color: white;
+	text-decoration: none;
+}
+
+h5 {
+	text-align: center;
+}
+
+p {
+	background-color: black;
+	margin: 50px;
+	font-size: 25px;
+}
+
+img {
+	width: 300px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+nav	{
+	text-align: center;
+	width:100%;
+}
+
+nav ul {
+	padding-top: 25px;
+	background-color: #1c1c1c;
+	font-family: Arial;
+	list-style: none;
+}
+
+nav ul li {
+	display:inline-block;
+	width: 24.5%;
+	text-align: center;
+	font-size: 20px;
+	padding-bottom: 30px;
+	font-family: Futura, Arial;
+}
+
+nav ul li a {
+	color: red;
+	font-style: bold;
+}
+
+.header {
+	background: url(https://download.logo.wine/logo/Costco/Costco-Logo.wine.png) no-repeat center center;	
+	background-size: 500px;
+	margin-bottom: -150px;
+	height: 20px;
+	padding-bottom: 260px;
+}
+
+#intro {
+	color: white;
+	margin: 10%;
+}
+
+footer {
+	background-color: #1c1c1c;
+	padding: 20px;
+}
+
+footer ul {
+	list-style: none;
+	color: white;
+}
+
+footer ul li h5 {
+	text-align:left;
+}
